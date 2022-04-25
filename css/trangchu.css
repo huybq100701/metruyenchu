@@ -9,6 +9,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    
 }
 .Navbar .Navbar__wrapper {
     min-width: 1200px;
@@ -237,3 +238,4 @@ body{
 .Navbar .Navbar__wrapper .Navbar__right .Navbar__right__register .Navbar__right__login__item:hover {
     color: #b78a28;
 }
+
