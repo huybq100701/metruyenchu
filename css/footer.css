@@ -1,0 +1,62 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.Footer .Footer__backgroud img {
+    position: absolute;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+.Footer .Footer__info {
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Footer .Footer__info .logo {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+.Footer .Footer__info .Footer__info__description {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #333;
+    text-align: center;
+    line-height: 1.5;
+    width: 1000px;
+}
+.Footer .Footer__info .Footer__info__appDownload {
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Footer .Footer__info .Footer__info__appDownload img {
+    width: 97px;
+    cursor: pointer;
+}
+.Footer .Footer__info .Footer__info__button {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Footer .Footer__info .Footer__info__button .Footer__info__button__item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 600;
+    margin-bottom: 20px;
+}
+.Footer .Footer__info .Footer__info__button .Footer__info__button__item:hover {
+    color: #b78a28;
+}

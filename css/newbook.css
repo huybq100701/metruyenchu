@@ -1,0 +1,243 @@
+.NewBook {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.NewBook .NewBook__left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #f7f5f0;
+    border-radius: 10px;
+    height: 100%;
+}
+.NewBook .NewBook__left:hover .NewBook__left__title .NewBook__left__title__link {
+    display: block;
+}
+.NewBook .NewBook__left .NewBook__left__title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.NewBook .NewBook__left .NewBook__left__title h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.NewBook .NewBook__left .NewBook__left__title .NewBook__left__title__link {
+    color: #b78a28;
+    text-decoration: none;
+    display: none;
+    margin-right: 10px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper {
+    position: relative;
+    align-items: center;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper {
+    width: 100%;
+    position: relative;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .mySwiper__item__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__name {
+    margin-top: 10px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__name h1 {
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    width: 320px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__description {
+    width: 320px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__description p {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    color: #666;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__actor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 10px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__actor .NewBook__left__actor__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__actor .NewBook__left__actor__left .NewBook__left__actor__icon {
+    width: 20px;
+    color: #666;
+    margin-right: 5px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__actor .NewBook__left__actor__left p {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    color: #666;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .mySwiper .mySwiper__item .NewBook__left__actor .NewBook__left__tag span {
+    border: 1px solid #b78a28;
+    color: #b78a28;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .NewBook__left__swiper__icon {
+    position: absolute;
+    top: 100px;
+    z-index: 99;
+    color: #333;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .NewBook__left__swiper__icon.right {
+    right: 10px;
+}
+.NewBook .NewBook__left .NewBook__left__swiper .NewBook__left__swiper__icon.left {
+    left: 10px;
+    transform: rotate(180deg);
+}
+.NewBook .NewBook__left .NewBook__left__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NewBook .NewBook__left .NewBook__left__btn .NewBook__left__btn__link {
+    color: white;
+    background-color: #bf2c24;
+    text-decoration: none;
+    padding: 8px 48px;
+    border-radius: 20px;
+}
+.NewBook .NewBook__right {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+.NewBook .NewBook__right:hover .NewBook__right__title .NewBook__right__title__link {
+    display: block;
+}
+.NewBook .NewBook__right .NewBook__right__title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.NewBook .NewBook__right .NewBook__right__title h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    margin-left: 20px;
+}
+.NewBook .NewBook__right .NewBook__right__title .NewBook__right__title__link {
+    color: #b78a28;
+    text-decoration: none;
+    display: none;
+}
+.NewBook .NewBook__right .NewBook__right__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item {
+    display: flex;
+    flex-direction: row;
+    width: 48%;
+    height: 110px;
+    margin-bottom: 48px;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__link img {
+    width: 72px;
+    height: 96px;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__title {
+    text-decoration: none;
+    color: #333;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__title:hover {
+    color: #b78a28;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__title h1 {
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 0.9375rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__description p {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    color: #666;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__actor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__actor .NewBook__right__container__item__info__actor__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__actor .NewBook__right__container__item__info__actor__left .NewBook__right__container__item__info__actor__icon {
+    width: 20px;
+    color: #666;
+    margin-right: 5px;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__actor .NewBook__right__container__item__info__actor__left p {
+    font-size: 0.9375rem;
+    line-height: 1.2;
+    color: #666;
+}
+.NewBook .NewBook__right .NewBook__right__container .NewBook__right__container__item .NewBook__right__container__item__info .NewBook__right__container__item__info__actor .NewBook__right__container__item__info__tag span {
+    border: 1px solid #b78a28;
+    color: #b78a28;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+}

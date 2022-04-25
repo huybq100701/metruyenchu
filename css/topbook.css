@@ -1,0 +1,125 @@
+.TopBook {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin: auto;
+}
+.TopBook .TopBook__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 31.5%;
+    box-shadow: 0 10px 25px 0 #d7d4ce;
+    border-radius: 10px;
+}
+.TopBook .TopBook__item:hover .TopBook__header .TopBook__header__link {
+    display: block;
+}
+.TopBook .TopBook__item .TopBook__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.TopBook .TopBook__item .TopBook__header .TopBook__title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    padding: 0 20px;
+}
+.TopBook .TopBook__item .TopBook__header .TopBook__header__link {
+    text-decoration: none;
+    color: #b78a28;
+    font-size: 1rem;
+    display: none;
+    margin-right: 10px;
+}
+.TopBook .TopBook__item .TopBook__content {
+    display: flex;
+    flex-direction: column;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__content__item__rank {
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border-bottom: 1px solid #cecece;
+    padding: 10px 0;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left h1 {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left h1:hover {
+    color: #b78a28;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left p {
+    color: #088860;
+    font-size: 0.9rem;
+    padding: 5px;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__actor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__actor .TopBook__item__left__actor__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+    color: #757474;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__actor p {
+    color: #333;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__tag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__tag .TopBook__item__left__tag__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+    color: #757474;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__left .TopBook__item__left__tag p {
+    color: #333;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__right {
+    display: flex;
+    flex-direction: row;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__right img {
+    width: 70px;
+    height: 105px;
+    outline: 1px solid transparent;
+    cursor: pointer;
+}
+.TopBook .TopBook__item .TopBook__content .TopBook__content__item .TopBook__item__content .TopBook__item__right p {
+    color: #088860;
+}
